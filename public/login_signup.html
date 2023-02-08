@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./login_signup/css/styles.css" />
+    <title>Sign Up | Login Form</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="user login">
+          <div class="img-box">
+            <img src="./login_signup/images/login.svg" alt="" />
+          </div>
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Not a member?
+                <span data-id="#ff0066">Register now</span>
+              </p>
+            </div>
+            <form action="/" method="post">
+              <div class="form-control">
+                <h2>Hello Again!</h2>
+                <p>Welcome back you've been missed.</p>
+                <input type="email" name="email" required placeholder="Enter Email" />
+                <div>
+                  <input type="password" name="password" required placeholder="Password" />
+                  <div class="icon form-icon">
+                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                  </div>
+                </div>
+                <span>Recovery Password</span>
+                <input type="Submit" value="Login" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./login_signup/images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Register -->
+        <div class="user signup">
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Already a member?
+                <span data-id="#1a1aff">Login now</span>
+              </p>
+            </div>
+            <form action="/" method="post">
+              <div class="form-control">
+                <h2>Welcome Codevo!</h2>
+                <p>It's good to have you.</p>
+                <input type="email" name="email" required placeholder="Enter Email" />
+                <div>
+                  <input type="password" name="password" required placeholder="Password" />
+                  <div class="icon form-icon">
+                    <img src="./login_signup/images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <div>
+                  <input type="password" name="confirm_password" required placeholder="Confirm Password" />
+                  <div class="icon form-icon">
+                    <img src="./login_signup/images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <input type="Submit" value="Register" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./login_signup/images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./login_signup/images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="img-box">
+            <img src="./login_signup/images/trial.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- IndexJs -->
+    <script src="./login_signup/js/index.js"></script>
+  </body>
+</html>
